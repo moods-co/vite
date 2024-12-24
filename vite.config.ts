@@ -36,6 +36,7 @@ export default defineConfig(({ mode }) => {
           output: {
             entryFileNames: 'static/client/main.js',
           },
+          external: ["moment"],
         },
       }
     } as UserConfig
