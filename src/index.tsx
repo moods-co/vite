@@ -20,7 +20,7 @@ const getAudiusSdk = async () => {
 
   if (!audiusSdk) {
     audiusSdk = sdk({
-      appName: 'Audius SDK React Hono Example',
+      appName: 'MOOD-CO',
       apiKey,
       apiSecret
     })
